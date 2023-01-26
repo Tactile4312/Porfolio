@@ -1,0 +1,282 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&family=Roboto:wght@100&family=Zen+Kaku+Gothic+Antique&display=swap');
+
+:root {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'poppins' , sans-serif;
+    scroll-behavior: smooth;
+}
+
+*{
+	padding: 0;
+	margin: 0;
+	font-family: 'poppins' , sans-serif;
+	box-sizing: border-box;
+}
+
+
+.nav{
+	height: 100vh;
+	width: 100%;
+	background-color: #000;
+	background-image: url(../img/background.jpg);
+	background-size: cover;
+	background-position: center;
+	
+}
+nav{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+	height: 150px;
+	padding-left: 8%;
+	padding-right: 8%;
+	background-image: url(../img/background.jpg);
+}
+.logo{
+	color: white;
+	font-size: 35px;
+	letter-spacing: 1px;
+	cursor: pointer;
+}
+
+.logo span{
+	color: #31bb15;
+}
+
+span{
+	color: #2cbe34;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px  35px;
+	width: auto;
+	margin-top: 8px;
+	display:inline-block;
+
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	text-transform: capitalize;
+}
+nav ul li a:hover{
+	color: #2cbe34;
+	transition: .4s;
+}
+.btn:hover{
+	transform: scale(1.2);
+}
+.content{
+	position: absolute;
+	top: 50%;
+	left:8%;
+	transform: translateY(-50%);
+}
+h1{
+	color: white;
+	margin: 20px 0px 20px;
+	font-size: 75px;
+}
+
+h4{
+	color: rgba(24, 245, 179, 0.8);
+	letter-spacing: 2px;
+	font-size: 20px;
+}
+
+/*About*/
+.about{
+	width: 100%;
+	padding: 100px 0px;
+	background-color: #191919;
+}
+.about img{
+	height: auto;
+	width: 430px;
+}
+.about-text{
+	width: 550px;
+}
+.main{
+	width: 1130px;
+	max-width: 95%;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.about-text h2{
+	color: white;
+	font-size: 75px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+}
+.about-text h5{
+	color: white;
+	letter-spacing: 2px;
+	font-size: 22px;
+	margin-bottom: 25px;
+	text-transform: capitalize;
+}
+.about-text p{
+	color: rgba(24, 245, 179, 0.8);
+	letter-spacing: 1px;
+	line-height: 28px;
+	font-size: 18px;
+	margin-bottom: 45px;
+	text-align: justify;
+}
+
+/*services*/
+.service{
+	background: #101010;
+	width: 100%;
+	padding: 100px 0px;
+}
+.service .title h2 {
+    color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+.card-deck{
+	align-content: stretch;
+}
+.card{
+	background-color: white;
+	box-shadow: 0 0 15px rgb(203, 52, 52);
+	flex: 1 1 21rem;
+	margin: 20px 20px;
+}
+.card-img-top{
+	display: block;
+	width: 100%;
+	height: 20rem;
+	object-fit: cover;
+}
+.card-text{
+	margin-left: 20px; 
+}
+.card-title{
+	font-size: 50px;
+	text-align: center	;
+}
+
+
+/*contact*/
+.contact{
+	width: 100%;
+	height: 50rem;
+	background: #191919;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact-me{
+    width:500px;
+	height: 500px;
+    background-color: #101010;
+    box-shadow: 0 0 20px 0 rgb(54, 52, 52);
+    top: 1400px;
+    left:50%;
+    margin-bottom: 100px;
+	margin: 30px auto;
+	text-align: center;
+	border-radius: 20px;
+	
+}
+
+.contact h2{
+	color: white;
+    font-size: 75px;
+    width: 1130px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.contact p{
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+	margin-bottom: 25px;
+}
+
+form{
+    margin:35px;
+}
+
+.input-field{
+    width:400px;
+    height:40px;
+    margin-top: 20px;
+    padding-left: 10px;
+    border:1px solid #777;
+    border-radius: 14px;
+    outline: none;
+}
+
+.textarea-field{
+    height:150px;
+    padding-top: 10px;
+
+}
+
+.btn{
+	background-color:#9908fa;
+	color: white;
+	text-decoration: none;
+	border: 2px solid transparent;
+	font-weight: bold;
+	padding: 13px 30px;
+	border-radius: 30px;
+	transition: .4s; 
+}
+.btn:hover{
+	background-color: transparent;
+	border: 2px solid #1534be;
+	cursor: pointer;
+}
+/*Footer*/
+footer{
+	position: relative;
+	width: 100%;
+	height: 400px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+footer{
+	position: relative;
+	width: 100%;
+	height: 200px;
+	background: #101010;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+footer p:nth-child(1){
+	font-size: 30px;
+	color: white;
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.end{
+	position: absolute;
+	color: #2cbe34;
+	bottom: 35px;
+	font-size: 14px; 
+}
+
