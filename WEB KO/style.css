@@ -15,25 +15,28 @@
 	font-family: 'poppins' , sans-serif;
 	box-sizing: border-box;
 }
+#videoBG{
+	position: absolute;
 
+}
+.header {
 
+	background-color: #d3ccb6;
+
+}
 .nav{
 	height: 100vh;
 	width: 100%;
-	background-color: #000;
-	background-image: url(../img/background.jpg);
-	background-size: cover;
-	background-position: center;
-	
 }
 nav{
+	background-color: transparent;
 	display: flex;
 	align-items:center;
 	justify-content: space-between;
 	height: 150px;
-	padding-left: 8%;
-	padding-right: 8%;
-	background-image: url(../img/background.jpg);
+	padding-left: 18%;
+	padding-right: 19%;
+	
 }
 .logo{
 	color: white;
@@ -43,7 +46,7 @@ nav{
 }
 
 .logo span{
-	color: #31bb15;
+	color: rgba(102, 73, 20, 0.808);
 }
 
 span{
@@ -59,6 +62,7 @@ nav ul li{
 
 }
 nav ul li a{
+	font-size: 20px;
 	color: white;
 	text-decoration: none;
 	font-weight: bold;

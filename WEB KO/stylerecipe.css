@@ -26,13 +26,23 @@
 	background-position: center;
 	
 }
+nav.header {
+	background-color: transparent;
+
+}
+.First{
+	
+}
+video{
+	position: relative;;
+}
 nav{
 	display: flex;
 	align-items:center;
 	justify-content: space-between;
 	height: 150px;
-	padding-left: 8%;
-	padding-right: 8%;
+	padding-left: 18%;
+	padding-right: 18%;
 	background-image: url(../img/background.jpg);
 }
 .logo{
@@ -42,12 +52,9 @@ nav{
 	cursor: pointer;
 }
 
-.logo span{
-	color: #31bb15;
-}
 
 span{
-	color: #2cbe34;
+	color: rgba(102, 73, 20, 0.808);
 }
 nav ul li{
 	list-style-type: none;
